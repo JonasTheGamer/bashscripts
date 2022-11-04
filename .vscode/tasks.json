@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make files executable",
+            "type": "shell",
+            "command": "find /home/jonas/labo_bash -type f -iname \"*.sh\" -exec chmod +x {} \\;",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            },
+        },
+        // More tasks here, if you need them.
+    ]
+}
